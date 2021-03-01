@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Landing Page with Form Validation</title>
+</head>
+<body>
+    <section>
+        <h1>Participe do Bootcamp</h1>
+        <form action="POST" id="form">
+            <label class="formControl">
+                Nome:<br/>
+                <input type="text" placeholder="Matheus Andrade" id="name"/>
+                <small>message error</small>
+            </label>
+            <label class="formControl">
+                E-mail:<br/>
+                <input type="text" placeholder="matheusandrade@email.com" id="email"/>
+                <small>message error</small>
+            </label>
+            <button>Cadastrar</button>
+        </form>
+    </section>
+    <script src="formvalidation.js"></script>
+</body>
+</html>
